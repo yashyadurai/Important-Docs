@@ -1,0 +1,75 @@
+body {
+    background-color: rgba(12, 17, 90, 0.658);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: large;
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 750px;
+    border: 0;
+    padding-top: 10px;
+    margin: 10px auto 10px auto;
+    color: rgb(255, 255 , 255);
+    
+}
+
+h1,p {
+    text-align: center;
+}
+
+.name-email-password {
+    display: block;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    width: 600px;
+}
+
+.personal-business {
+    margin: 10px auto 10px auto;
+    display: inline;
+}
+
+fieldset {
+    border: 0;
+}
+
+hr {
+    border: solid 2px;
+}
+input[type="submit"] {
+    width: 750px;
+    height:50px;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+}
+
+input {
+    background-color: rgb(51, 52, 104);
+}
+input[type="file"] {
+    border: solid 2px;
+    margin: 10px auto 10px auto;
+    width: 600px;
+    padding: 0 ;
+}
+select {
+    width: 600px;
+    height: 40px;
+}
+textarea {
+    width: 600px;
+    margin: auto;
+}
+
+input [type="radio"] {
+    display: inline;
+}
+#age {
+    width: 600px;
+    height: 25px;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+header {
+    border-bottom: solid rgb(51, 52, 104) 2px;
+}
