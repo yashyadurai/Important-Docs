@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+    --Green: hsl(75, 94%, 57%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--OffBlack);
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    height: 100vh;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0px;
+    border-radius: 5px;
+    background-color: var(--DarkGrey);
+    color: var(--White);
+    max-width: 313px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+#profilePicture {
+    border: none;
+    background: url(images/yashpropic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: auto auto 0 auto;
+}   
+
+.name {
+    text-align: center;
+    color: var(--White);
+    margin-bottom: -14px;
+}
+
+.address {
+    text-align: center;
+    color: var(--Green);
+    font-size: small;
+}
+.address > p {
+    margin-top: 10px;
+    padding-top: 0px;
+}
+
+.bio {
+    text-align: center;
+    color: var(--Grey);
+    font-size: smaller;
+}
+
+button {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    height: 30px;
+    border: 0;
+    border-radius: 3px;
+    background-color: var(--Grey);
+    color: var(--White);
+}
+
+button:hover {
+    background-color: var(--Green);
+    cursor: pointer black;
+    color: black;
+
+}
+a {
+    text-decoration: none;
+    width: 100%;
+    max-width: 260px;
+    border: 0;
+}
+
+#github {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.buttons {
+    margin-bottom: 12px;
+}
+button[value="Instagram"] {
+    margin-bottom: 0;
+}
