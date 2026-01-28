@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    /*PRIMARY COLORS*/
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+    /*SECONDARY COLORS*/
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+/*CSS FOR BODY*/
+body {
+    background-color: var(--RoseWhite);
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    border: solid red 2px;
+    width: 558px;
+}
+
+#img {
+    background: url(images/image-omelette.jpeg);
+    border: soid black 2px;
+}
+
+#heading {
+    border: solid blue 2px;
+}
+
+#preparation {
+    border: solid blueviolet 2px;
+}
+.prepTimeList {
+    border: solid lightcoral 2px;
+}
+
+#ingredients {
+    border: solid black 2px;
+}
+
+.ingredList {
+    border: solid lightgreen 2px;
+}
+
+#instructions {
+    border: solid brown 2px;
+}
+
+.instruction {
+    border:hsl(14, 45%, 36%) solid 2px;
+}
+
+#nutrition {
+    border: solid greenyellow 2px;
+}
+
+.nutrition {
+    border: solid green 2px;
+}
+
+.nutritionGrid {
+    border: solid 2px yellow;
+}
