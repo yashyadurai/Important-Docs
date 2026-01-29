@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+body {
+    background-color: var(--Yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainContainer {
+    background-color: var(--White);
+    width: 309px;
+    height: 423px;
+    border: solid var(--Grey) 2px;
+    box-shadow: 10px 10px var(--Black);
+    margin: 174px auto 0 auto;
+    border-radius: 20px;
+}
+
+#img {
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 16px;
+    width: 100%;
+    max-width: 269px;
+    height: 100%;
+    max-height: 161px;
+    background: url(images/illustration-article.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 9px;
+}
+#learning {
+    margin-left: 18px;
+    margin-top: 14px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    font-family: "Figtree";
+    font-size: 14px;
+    color: var(--Black);
+    background-color: var(--Yellow);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 65px;
+}
+
+#publishedDate {
+    color: var(--Black);
+    font-size: 12px;
+    font-family: "Figtree";
+    margin-top: 15px;
+    margin-left: 17px;
+}
+
+
+h3 {
+    color: var(--Black);
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 9.72px;
+}
+
+p {
+    color: var(--Grey);
+    margin-top: -5px;
+    margin-left: 17px;
+    margin-bottom: 28px;
+}
+
+a {
+   margin-left: 17px; 
+}
+
+#nameOfAuthor {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 70px;
+    position:relative;
+    top:-9px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Black);
+}
+a:hover {
+    color: var(--Yellow)
+}
+
+#propic {
+    border: solid red 0px;
+    width: 40px;
+    height: 40px;
+    margin-top: -40px;
+    margin-left: 17px;
+    padding: 0px;
+    border-radius: 20px;
+    background:  url(images/yashpropic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
