@@ -1,0 +1,93 @@
+*{
+    box-sizing: content-box;
+}
+body{
+    background-color: lightblue;
+    font-family: sans-serif;
+    margin: 0 ;
+}
+header {
+    background-color: lightcoral;
+    color: lavenderblush;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    text-align: center;
+}
+h1 {
+    margin: 0px;
+}
+#img-div-header {
+    margin-left: -1167px;
+    width: 10px;
+    height: 10px;
+}
+#nav-bar {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#h4-form {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#h3-fav-song {
+    text-align: center;
+}
+#video-div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    height: 315px;
+    border: solid red 2px;
+    margin-bottom: 100px;
+}
+#main-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.my {
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: 900;
+}
+#git-ins-link {
+    border: solid 2px;
+    text-align: center;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    background-color: yellowgreen;
+}
+.but {
+    width: 90%;
+    border: 0;
+
+}
+.ques {
+    background-color: darkmagenta;
+    color: white
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: mediumslateblue;
+    border-top: solid lightseagreen 2px;
+}
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
