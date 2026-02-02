@@ -1,0 +1,29 @@
+@media screen and (max-width: 800px) {
+    html {
+        margin-top: -27px;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+    }
+
+    #welcome-section {
+      background:radial-gradient(
+        red 0%,
+        crimson 50%,
+        lightpink 70%,
+        pink 100%
+      )
+    }
+    #foot-link{
+        display: block;
+    }
+    #contact {
+      height:  600px;
+      width: 100vw; 
+    }
+  }
