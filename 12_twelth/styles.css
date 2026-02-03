@@ -1,0 +1,292 @@
+/* Apply smooth scrolling behavior to all scrollable containers */
+html {
+    scroll-behavior: smooth;
+    background-color: lightpink;
+}
+/* Resetting default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+/* Remove bullets from all list items */
+ul, ol {
+    list-style-type: none;
+}
+
+/* Styling navigation */
+#navbar {
+    background-color: #FF85A2; /* Romantic pink */
+    color: #fff;
+    padding: 10px;
+    text-align: right; /* Align navbar links to the right */
+    position: fixed; /* Fixed position */
+    top: 0; /* Stick to the top */
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex; /* Display navbar links in a row */
+    justify-content: flex-end; /* Align navbar links to the right */
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+#navbar ul a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#navbar ul a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white for glow effect */
+    border-radius: 5px; /* Rounded corners for glow effect */
+}
+
+/* Styling sections */
+section {
+    margin-top: 60px; /* Adjust margin to account for fixed navbar */
+    height: calc(100vh - 60px); /* Fills the remaining viewport height */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FFF0F5; /* Light pink background */
+    border-radius: 10px;
+    display: flex; /* Added to center content vertically */
+    justify-content: center; /* Added to center content horizontally */
+    align-items: center; /* Added to center content vertically */
+}
+/* Styling welcome section */
+#welcome h1 {
+    font-family: 'Montserrat', sans-serif; /* Change the font family */
+    font-size: 3em; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Dark gray color */
+    text-align: center;
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+/* Styling welcome section */
+#welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: #333;
+    text-align: right;
+}
+
+.propic {
+    width: 200px; /* Adjust the width of the profile picture */
+    height: 200px; /* Adjust the height of the profile picture */
+    background-image: url(images/20231215_114320_portrait.jpg); /* Placeholder image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%; /* Make it circular */
+    margin-left: 219px;
+}
+#list-skills {
+    padding: 20px; /* Add padding as needed */
+}
+/* #list-skills > ul > li { */
+    /* padding: 20px; */
+/* } */
+
+/* Styling the second section */
+#wife {
+    display: flex;
+    flex-direction: column; /* Reverse the order of flex items */
+    align-items: center; /* Center items vertically */
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.secondHeading {
+    text-align: center; /* Center the content horizontally */
+    margin-top: 0; /* Remove default margin */
+    margin-bottom: 0; /* Push the div to the top */
+    margin-left: 0; /* Center the div horizontally */
+    margin-right: 0; /* Center the div horizontally */
+}
+
+
+#propic-wife {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    background-image: url(images/andrea-propic.jpg); /* Add background image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%; /* Make it circular */
+    position: absolute;
+    top: 937px;
+    left: 28px;
+    margin-left: 0px;
+    background-color: #FF85A2;
+}
+
+#future-wife {
+    width: calc(70% - 20px); /* Adjust width based on available space */
+    padding: 20px; /* Add padding as needed */
+    padding-top: 20px;
+    margin-left: 60px;
+    margin-right: 37px;
+    margin-top: 30px;
+}
+
+#future-wife h2 {
+    font-family: 'Montserrat', sans-serif; /* Change the font family */
+    font-size: 2em; /* Adjust font size */
+    color: #FF85A2; /* Romantic pink */
+    text-align: center;
+    margin-bottom: 20px; /* Add bottom margin */
+}
+#note {
+    border: 1px solid #FF85A2; /* Match border color with the background color of the navigation bar */
+    border-radius: 7px; /* Add border radius */
+    padding: 20px; /* Add padding as needed */
+}
+#forever, #nameLetter {
+    text-align: right;
+}
+
+#list-reason {
+    height: 275.017px;
+    border: #FF85A2 solid 2px;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+#list-reason > ol {
+    text-align: left;
+    margin-top: 60px;
+    font-size: 26px;
+    font-family: sans-serif;
+    
+}
+
+#whyYou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#whyYou > div:nth-of-type(2) {
+    width: 896.3px;
+    height: 275.17px;
+    margin: 100px auto;
+    border: solid #FF85A2 2px;
+    border-radius: 7px;
+}
+
+#futureplansDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#futureplansHead {
+    margin-bottom: 50px;
+}
+#futureplansPara {
+    border: #FF85A2 solid 2px;
+    border-radius: 7px;
+    width: 896.3px;
+    padding: 20px;
+}
+#end {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#end-well {
+    padding-bottom: 20px;
+}
+#end-bottom {
+    animation: invisible 4s linear 0ms infinite ;
+}
+/* Styling main headings of sections */
+section h2 {
+    font-family: 'Montserrat', sans-serif; /* Change the font family */
+    font-size: 2.5em; /* Adjust the font size */
+    color: #FF85A2; /* Romantic pink */
+    text-align: center;
+}
+
+/* Styling paragraphs */
+p {
+    font-family: 'Roboto', sans-serif; /* Change the font family */
+    font-size: 1.2em; /* Adjust the font size */
+    line-height: 1.6; /* Adjust the line height for better readability */
+    color: #333; /* Dark gray color */
+    text-align: center;
+}
+
+/* Styling footer */
+footer {
+    background-color: #FF85A2; /* Romantic pink */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    #navbar ul {
+        flex-direction: column; /* Display navbar links vertically on small screens */
+        justify-content: flex-start; /* Align navbar links to the top */
+    }
+
+    #navbar ul a {
+        padding: 10px 20px; /* Increase padding for better touch target on small screens */
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    section h2 {
+        font-size: 2em; /* Adjust the font size for smaller screens */
+    }
+
+    p {
+        text-align: left; /* Align paragraphs to left on smaller screens */
+    }
+}
+/* Media query to hide navbar on mobile devices */
+@media (max-width: 768px) {
+    html {
+        display: none;
+    }
+}   
+@keyframes invisible {
+    0%{
+        color: lightpink;
+    }
+    25% {
+        color: lightpink;
+    }
+    50% {
+        color:#FF85A2;
+    }
+    75% {
+        color: lightpink;
+    }
+    100% {
+        color:lightpink;
+    }
+}
