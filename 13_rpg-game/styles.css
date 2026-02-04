@@ -1,0 +1,52 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #0a0a23;
+}
+#outerContainer {
+    background-color: white;
+    padding: 15px;
+    width: 500px;
+    margin: 20px auto;
+}
+#mainContainer {
+    width: 100%;
+    color: #0a0a23;
+    background-color: white;
+    border: solid 2px #0a0a23;
+}
+#upper {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid #0a0a23 2px;
+    padding: 6px;
+}
+.stats {
+    margin-right: 10px;
+}
+#buttonsDiv {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid #0a0a23 2px;
+    padding: 6px;
+}
+button {
+    background:linear-gradient(
+        orange,
+        darkorange
+    );
+    color: #0a0a23;
+    border: 2px solid darkorange;
+    margin-right: 10px;
+}
+#textDiv {
+    background-color: #0a0a23;
+    color: white;
+    height: 100%;;
+    padding: 6px;
+}
+p {
+    margin: 0;
+}
